@@ -1,0 +1,114 @@
+/* Заголовки */
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #666;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #999;
+    margin-top: 20px;
+  }
+  
+  /* Текст */
+  p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Таблиці */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Список */
+  ul {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  /* Картинки */
+  img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+  }
+  
+  /* Цитата */
+  blockquote {
+    font-style: italic;
+    font-size: 24px;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* Глобальні стилі */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-item {
+    text-align: center;
+  }
+  
+  .image-item img {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .image-item p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
